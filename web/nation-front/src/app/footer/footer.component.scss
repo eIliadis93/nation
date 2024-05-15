@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    background: #b2a8da;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: center;
+}
+
+.buttons{
+    text-align: center;
+    padding: 4px;
+}
+
+.btn{
+    padding: 4px;
+}

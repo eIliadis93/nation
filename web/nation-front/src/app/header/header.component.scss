@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #b2a8da;
+  }
+
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .header-button {
+    margin-left: 1rem;
+  }

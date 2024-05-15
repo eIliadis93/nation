@@ -1,0 +1,31 @@
+mat-grid-tile {
+  background-color: #b2a8da;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+mat-grid-tile:hover {
+  background-color: #9a8bce;
+}
+
+mat-grid-tile:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.home-container {
+  padding: 20px;
+}
+
+mat-grid-list {
+  gap: 20px;
+  display: flex;
+}
